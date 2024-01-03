@@ -10,7 +10,7 @@ This repository contains the source code for a gender classification model that 
 #### How to Retrain the Model
 To retrain the model and create the missing files, follow these steps:
 
-1. **Open `Source_code_svm.ipynb`:** Open this notebook using Jupyter Notebook or Google Colab.
+1. **Open [Source_code_svm.ipynb](https://github.com/Sangqpham0102/SVM_Gender_Recognition/blob/main/Source_code_svm.ipynb):** Open this notebook using Jupyter Notebook or Google Colab.
 2. **Run the Code Cells:** Execute the code cells in the notebook to retrain the model. Ensure you have all the necessary resources like training data and required libraries before running the code.
 3. **Save the New Model:** After the training is complete, make sure to save the new model with the name `model2.sav`.
 
