@@ -10,18 +10,13 @@ This Python code utilizes OpenCV, HOG (Histogram of Oriented Gradients), and a p
 - scikit-image
 - joblib
 
-#### Pre-trained Models
-Before running the code, download the following pre-trained models and place them in the specified directories:
-- [Model](/gender-classification-dataset/Model/model2.sav)
-- [Haar Cascade](/gender-classification-dataset/haarcascade_frontalface_default.xml)
+#### Training the Model
+To train your own gender classification model, follow these steps:
 
-#### Usage
-The `checking` function checks the gender of the person in an image using a pre-trained model. Additionally, the `webcam` function enables real-time gender detection through the webcam.
+1. Prepare a dataset with labeled images of male and female faces.
+2. Use the prepared dataset to train a machine learning model. Below is an example using scikit-learn:
 
-Example usage:
-```python
-# Example to check gender in an image
-checking('path/to/image.jpg')
-
-# Example to use webcam for real-time gender detection
-webcam()
+   ```python
+   # Example code for training a gender classification model
+   # Insert your training code here
+   # Save the trained model as 'model2.sav'
