@@ -1,4 +1,4 @@
-###Gender Classification Model
+### Gender Classification Model
 This repository contains the source code for a gender classification model that predicts gender based on facial images. The model utilizes computer vision techniques and machine learning algorithms to categorize individuals into male or female classes.
 
 Model Details
