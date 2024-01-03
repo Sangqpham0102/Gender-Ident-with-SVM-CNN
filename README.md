@@ -16,3 +16,15 @@ To retrain the model and create the missing files, follow these steps:
 3. **Save the New Model:** After the training is complete, make sure to save the new model with the name `model2.sav`.
 
 Once done, you can use the newly generated files to perform gender predictions or classifications in your applications.
+### Gender Classification using OpenCV and HOG
+The Python script provided here allows you to perform gender classification on images or through a webcam using the retrained model files ( and ). This script involves the detection of faces in images or live through a webcam feed, extracting features using HOG, and making gender predictions based on the detected faces. To use this script, ensure you have the following libraries installed:model2.savhaarcascade_frontalface_default.xml
+
+OpenCV
+Numpy
+Matplotlib
+scikit-image
+joblib
+tkinter (for GUI components if using the provided script)
+Ensure these libraries are installed in your Python environment before executing the provided Python script for gender classification.
+
+This introduction provides information about the model, instructions for retraining, and details about the libraries required to run the provided scripts for gender classification using OpenCV and HOG. Feel free to modify or enhance this text based on your specific library versions or additional dependencies.
