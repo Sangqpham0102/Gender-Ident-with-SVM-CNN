@@ -20,3 +20,9 @@ To train your own gender classification model, follow these steps:
    # Example code for training a gender classification model
    # Insert your training code here
    # Save the trained model as 'model2.sav'
+### Gender Classification Dataset
+
+This repository contains a gender classification dataset used for training machine learning models to classify gender based on facial images. The dataset consists of labeled images categorized into male and female classes.
+
+#### Source
+The dataset was sourced from [Kaggle - Gender Classification Dataset](https://www.kaggle.com/datasets/cashutosh/gender-classification-dataset). You can find more details about the dataset structure, number of samples, and other relevant information on the Kaggle dataset page.
