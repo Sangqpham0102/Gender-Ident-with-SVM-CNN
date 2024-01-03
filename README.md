@@ -5,8 +5,7 @@ This repository contains the source code for a gender classification model that 
 - The model employs a combination of feature extraction using Histogram of Oriented Gradients (HOG) and a machine learning classifier.
 - Note that due to missing files (`model2.sav` and `haarcascade_frontalface_default.xml`), the model cannot be executed directly.
 - To retrain the model and generate the missing files, run the code in `Source_code_svm.ipynb`. This notebook assists in retraining the model to create `model2.sav` and `haarcascade_frontalface_default.xml`.
-- The training data used to create the missing files can be found in the Kaggle Gender Classification Dataset.
-
+- The training data used to create the missing files can be found in  Kaggle Gender Classification Dataset.
 #### How to Retrain the Model
 To retrain the model and create the missing files, follow these steps:
 
@@ -17,7 +16,7 @@ To retrain the model and create the missing files, follow these steps:
 Once done, you can use the newly generated files to perform gender predictions or classifications in your applications.
 
 ### Gender Classification using OpenCV and HOG
-The provided Demo.py script enables gender classification on images or through a webcam using the retrained model files (`model2.sav` and `haarcascade_frontalface_default.xml`). This script involves detecting faces in images or live through a webcam feed, extracting features using HOG, and making gender predictions based on the detected faces. To use this script, ensure you have the following libraries installed:
+The provided **Demo.py** script enables gender classification on images or through a webcam using the retrained model files (`model2.sav` and `haarcascade_frontalface_default.xml`). This script involves detecting faces in images or live through a webcam feed, extracting features using HOG, and making gender predictions based on the detected faces. To use this script, ensure you have the following libraries installed:
 
 - `OpenCV`
 - `Numpy`
