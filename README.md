@@ -18,4 +18,5 @@ Kho này chứa mã nguồn cho một mô hình phân loại giới tính dựa 
 ### Giao Diện Thử Nghiệm
 - Nhận dạng giới tính nam nữ qua ảnh và webcam
 ![image](https://github.com/Sangqpham0102/Gender-Identification-with-SVM-CNN-Fusion/assets/119334855/b5b6d3e6-911f-4473-a6d1-8ba7259701e0)
-![image](https://github.com/Sangqpham0102/Gender-Identification-with-SVM-CNN-Fusion/assets/
+![image](https://github.com/Sangqpham0102/Gender-Identification-with-SVM-CNN-Fusion/assets/119334855/04afd606-56a2-46e7-9bf8-a7fbd5f5a4ee)
+
