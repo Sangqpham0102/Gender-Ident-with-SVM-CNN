@@ -27,3 +27,8 @@ The provided [Demo.py](https://github.com/Sangqpham0102/SVM_Gender_Recognition/b
 - `tkinter` (for GUI components if using the provided script)
 
 Ensure these libraries are installed in your Python environment before executing the provided Python script for gender classification.
+## Demo Tkinter interface
+- Nhận dạng giới tính nam nữ qua ảnh và webcam
+![image](https://github.com/Sangqpham0102/Gender-Identification-with-SVM-CNN-Fusion/assets/119334855/b5b6d3e6-911f-4473-a6d1-8ba7259701e0)
+![image](https://github.com/Sangqpham0102/Gender-Identification-with-SVM-CNN-Fusion/assets/119334855/40831dcc-33ee-4f19-8782-f27cb68d9830)
+
