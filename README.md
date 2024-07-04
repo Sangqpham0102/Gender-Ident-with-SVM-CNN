@@ -1,22 +1,25 @@
-### Mô Hình Phân Loại Giới Tính
+### Gender Classification Model
 
-Kho này chứa mã nguồn cho một mô hình phân loại giới tính dựa trên hình ảnh khuôn mặt. Mô hình này sử dụng các kỹ thuật thị giác máy tính và thuật toán học máy để phân loại cá nhân thành các lớp nam hoặc nữ.
+This repository contains source code for a gender classification model based on facial images. The model employs computer vision techniques and machine learning algorithms to classify individuals into male or female categories.
 
-#### Chi Tiết Mô Hình
-- Mô hình xây dựng trên Mạng Nơ-ron Tích Chập (CNN) và bộ phân loại Support Vector Machine (SVM).
-- Để huấn luyện lại mô hình hãy chạy mã trong `SVM.ipynb`.
-- Dữ liệu huấn luyện được sử dụng để tạo ra các tệp thiếu có thể được tìm thấy trong [Bộ Dữ Liệu Phân Loại Giới Tính trên Kaggle](https://www.kaggle.com/datasets/cashutosh/gender-classification-dataset).
+#### Model Details
+- The model is built using Convolutional Neural Networks (CNN) and Support Vector Machine (SVM) classifiers.
+- To retrain the model, run the code in `SVM.ipynb`.
+- Training data used to create missing files can be found in the [Gender Classification Dataset on Kaggle](https://www.kaggle.com/datasets/cashutosh/gender-classification-dataset).
 
-### Thư viện sử dụng
- Để sử dụng tập lệnh này, đảm bảo bạn đã cài đặt các thư viện sau:
+### Libraries Used
+To use this command set, ensure you have installed the following libraries:
 - `OpenCV`
 - `Numpy`
 - `Matplotlib`
 - `scikit-image`
 - `joblib`
-- `tkinter` (đối với các thành phần GUI nếu sử dụng tập lệnh được cung cấp)
-### Giao Diện Thử Nghiệm
-- Nhận dạng giới tính nam nữ qua ảnh và webcam
+- `tkinter` (for GUI components if using the provided command set)
+
+### Testing Interface
+- Gender identification of male and female through images and webcam.
+
 ![image](https://github.com/Sangqpham0102/Gender-Identification-with-SVM-CNN-Fusion/assets/119334855/b5b6d3e6-911f-4473-a6d1-8ba7259701e0)
 ![image](https://github.com/Sangqpham0102/Gender-Identification-with-SVM-CNN-Fusion/assets/119334855/04afd606-56a2-46e7-9bf8-a7fbd5f5a4ee)
 
+This information provides a comprehensive overview of the purpose and functionality of the gender classification model, including details on how to use and retrain it.
